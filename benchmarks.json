@@ -1,0 +1,547 @@
+{
+  "schema": 1,
+  "dt_s": 0.2,
+  "duration_s": 360,
+  "entries": [
+    {
+      "settings": {
+        "delay": 0,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "steady"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 0.3045054973333924,
+          "lateMae": 0.18913363682341736,
+          "heaterSeconds": 172.59999999999874
+        },
+        {
+          "method": "pid",
+          "mae": 0.27657988192567085,
+          "lateMae": 0.00009599376099840148,
+          "heaterSeconds": 171.99010060336016
+        },
+        {
+          "method": "antiwindup",
+          "mae": 0.27657988192567085,
+          "lateMae": 0.00009599376099840148,
+          "heaterSeconds": 171.99010060336016
+        },
+        {
+          "method": "feedforward",
+          "mae": 0.2799873434428162,
+          "lateMae": 0.0000990544062738034,
+          "heaterSeconds": 174.20975482122148
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 6,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "steady"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 1.128109580388964,
+          "lateMae": 0.9323181892058974,
+          "heaterSeconds": 175.99999999999855
+        },
+        {
+          "method": "pid",
+          "mae": 0.3779960656951975,
+          "lateMae": 0.00006466886746872902,
+          "heaterSeconds": 171.9901104556952
+        },
+        {
+          "method": "antiwindup",
+          "mae": 0.36017945315079436,
+          "lateMae": 0.00004523914750967843,
+          "heaterSeconds": 171.16013113055664
+        },
+        {
+          "method": "feedforward",
+          "mae": 0.3806546273023661,
+          "lateMae": 0.00006681197268415317,
+          "heaterSeconds": 172.0780957556706
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 20,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "steady"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 2.683784774662982,
+          "lateMae": 2.371471986456869,
+          "heaterSeconds": 173.5999999999987
+        },
+        {
+          "method": "pid",
+          "mae": 2.8301470604222425,
+          "lateMae": 2.1664189827623592,
+          "heaterSeconds": 165.94722541474326
+        },
+        {
+          "method": "antiwindup",
+          "mae": 2.29776661508093,
+          "lateMae": 1.9651708448519218,
+          "heaterSeconds": 171.0468394271356
+        },
+        {
+          "method": "feedforward",
+          "mae": 2.309319096113028,
+          "lateMae": 1.9765907170348207,
+          "heaterSeconds": 171.56069461582888
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 0,
+        "power": 0.5,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "windup"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 3.891682324738716,
+          "lateMae": 0.18060447248740472,
+          "heaterSeconds": 142.69999999999618
+        },
+        {
+          "method": "pid",
+          "mae": 5.698677603578287,
+          "lateMae": 2.9945179291782478,
+          "heaterSeconds": 179.99999999999406
+        },
+        {
+          "method": "antiwindup",
+          "mae": 3.9692195748611216,
+          "lateMae": 0.013462936736579417,
+          "heaterSeconds": 140.21618028147356
+        },
+        {
+          "method": "feedforward",
+          "mae": 4.012603818438468,
+          "lateMae": 0.01656939695571287,
+          "heaterSeconds": 139.56447518986974
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 6,
+        "power": 0.5,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "windup"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 4.348505439988376,
+          "lateMae": 0.5656149679527258,
+          "heaterSeconds": 138.8999999999964
+        },
+        {
+          "method": "pid",
+          "mae": 5.862388977681355,
+          "lateMae": 2.9931237785239224,
+          "heaterSeconds": 176.99999999999423
+        },
+        {
+          "method": "antiwindup",
+          "mae": 4.148161814182979,
+          "lateMae": 0.008783275567372672,
+          "heaterSeconds": 138.69420642809698
+        },
+        {
+          "method": "feedforward",
+          "mae": 4.185205412545604,
+          "lateMae": 0.010950349209013818,
+          "heaterSeconds": 138.15561590660664
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 20,
+        "power": 0.5,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "windup"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 5.309549331047514,
+          "lateMae": 1.5563612491940517,
+          "heaterSeconds": 125.09999999999717
+        },
+        {
+          "method": "pid",
+          "mae": 6.231133035205882,
+          "lateMae": 2.9889294012575087,
+          "heaterSeconds": 169.99999999999463
+        },
+        {
+          "method": "antiwindup",
+          "mae": 4.8819766861626634,
+          "lateMae": 0.5076386266574842,
+          "heaterSeconds": 134.79404064875
+        },
+        {
+          "method": "feedforward",
+          "mae": 4.897360177531349,
+          "lateMae": 0.5035582305530953,
+          "heaterSeconds": 134.40283535120307
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 0,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "cold"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 0.30759091766572144,
+          "lateMae": 0.18748440982642578,
+          "heaterSeconds": 213.5999999999964
+        },
+        {
+          "method": "pid",
+          "mae": 0.6202235404394932,
+          "lateMae": 0.2388495742273493,
+          "heaterSeconds": 212.8834041087126
+        },
+        {
+          "method": "antiwindup",
+          "mae": 0.6202235404394932,
+          "lateMae": 0.2388495742273493,
+          "heaterSeconds": 212.8834041087126
+        },
+        {
+          "method": "feedforward",
+          "mae": 0.279987343442816,
+          "lateMae": 0.0000990544062738034,
+          "heaterSeconds": 215.11884573031233
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 6,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "cold"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 1.2352792859055222,
+          "lateMae": 0.9545034206119031,
+          "heaterSeconds": 210.59999999999658
+        },
+        {
+          "method": "pid",
+          "mae": 0.7321331157595697,
+          "lateMae": 0.1803037454947251,
+          "heaterSeconds": 212.90219357463423
+        },
+        {
+          "method": "antiwindup",
+          "mae": 0.7144714029267911,
+          "lateMae": 0.18032304179878997,
+          "heaterSeconds": 212.0722142494966
+        },
+        {
+          "method": "feedforward",
+          "mae": 0.5133400229213066,
+          "lateMae": 0.08082168064770665,
+          "heaterSeconds": 212.21216455027633
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 20,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1,
+        "scenario": "cold"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 2.8931481656850564,
+          "lateMae": 2.1416254689643144,
+          "heaterSeconds": 201.79999999999708
+        },
+        {
+          "method": "pid",
+          "mae": 3.386629257040646,
+          "lateMae": 3.2183447289300697,
+          "heaterSeconds": 215.80184735503607
+        },
+        {
+          "method": "antiwindup",
+          "mae": 2.3599369748362817,
+          "lateMae": 1.7970732885782552,
+          "heaterSeconds": 202.89108171302382
+        },
+        {
+          "method": "feedforward",
+          "mae": 1.9923041752008213,
+          "lateMae": 1.7843575113784778,
+          "heaterSeconds": 210.8204895740123
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 0,
+        "power": 1,
+        "kp": 0.35,
+        "ki": 0.02,
+        "estimate": 1,
+        "scenario": "delay"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 0.3045054973333924,
+          "lateMae": 0.18913363682341736,
+          "heaterSeconds": 172.59999999999874
+        },
+        {
+          "method": "pid",
+          "mae": 0.19198954482453348,
+          "lateMae": 4.259760332914197e-8,
+          "heaterSeconds": 173.53969214885933
+        },
+        {
+          "method": "antiwindup",
+          "mae": 0.16318008283604593,
+          "lateMae": 1.9397708950208425e-8,
+          "heaterSeconds": 172.6814446299956
+        },
+        {
+          "method": "feedforward",
+          "mae": 0.17024865167082426,
+          "lateMae": 2.811018857092525e-8,
+          "heaterSeconds": 173.03414710665575
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 6,
+        "power": 1,
+        "kp": 0.35,
+        "ki": 0.02,
+        "estimate": 1,
+        "scenario": "delay"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 1.128109580388964,
+          "lateMae": 0.9323181892058974,
+          "heaterSeconds": 175.99999999999855
+        },
+        {
+          "method": "pid",
+          "mae": 0.4550511464060147,
+          "lateMae": 0.00034314809118739004,
+          "heaterSeconds": 173.53964170758076
+        },
+        {
+          "method": "antiwindup",
+          "mae": 0.2735277727946599,
+          "lateMae": 0.00012950919412952307,
+          "heaterSeconds": 170.5543377445698
+        },
+        {
+          "method": "feedforward",
+          "mae": 0.27972375109982267,
+          "lateMae": 0.0001390184299257354,
+          "heaterSeconds": 170.72096121221188
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 20,
+        "power": 1,
+        "kp": 0.35,
+        "ki": 0.02,
+        "estimate": 1,
+        "scenario": "delay"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 2.683784774662982,
+          "lateMae": 2.371471986456869,
+          "heaterSeconds": 173.5999999999987
+        },
+        {
+          "method": "pid",
+          "mae": 3.7791220115971607,
+          "lateMae": 3.533898349886777,
+          "heaterSeconds": 162.3894115610294
+        },
+        {
+          "method": "antiwindup",
+          "mae": 2.3586954855711793,
+          "lateMae": 2.0521403544113443,
+          "heaterSeconds": 171.50246434154508
+        },
+        {
+          "method": "feedforward",
+          "mae": 2.3604334913383123,
+          "lateMae": 2.055142204990743,
+          "heaterSeconds": 171.45489116855526
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 0,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1.8,
+        "scenario": "mismatch"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 0.3045054973333924,
+          "lateMae": 0.18913363682341736,
+          "heaterSeconds": 172.59999999999874
+        },
+        {
+          "method": "pid",
+          "mae": 0.27657988192567085,
+          "lateMae": 0.00009599376099840148,
+          "heaterSeconds": 171.99010060336016
+        },
+        {
+          "method": "antiwindup",
+          "mae": 0.27657988192567085,
+          "lateMae": 0.00009599376099840148,
+          "heaterSeconds": 171.99010060336016
+        },
+        {
+          "method": "feedforward",
+          "mae": 0.3201515223054211,
+          "lateMae": 0.00011210298380806449,
+          "heaterSeconds": 175.28253190000018
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 6,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1.8,
+        "scenario": "mismatch"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 1.128109580388964,
+          "lateMae": 0.9323181892058974,
+          "heaterSeconds": 175.99999999999855
+        },
+        {
+          "method": "pid",
+          "mae": 0.3779960656951975,
+          "lateMae": 0.00006466886746872902,
+          "heaterSeconds": 171.9901104556952
+        },
+        {
+          "method": "antiwindup",
+          "mae": 0.36017945315079436,
+          "lateMae": 0.00004523914750967843,
+          "heaterSeconds": 171.16013113055664
+        },
+        {
+          "method": "feedforward",
+          "mae": 0.4066116475991686,
+          "lateMae": 0.0000821046685474928,
+          "heaterSeconds": 172.64283344639188
+        }
+      ]
+    },
+    {
+      "settings": {
+        "delay": 20,
+        "power": 1,
+        "kp": 0.16,
+        "ki": 0.008,
+        "estimate": 1.8,
+        "scenario": "mismatch"
+      },
+      "metrics": [
+        {
+          "method": "switch",
+          "mae": 2.683784774662982,
+          "lateMae": 2.371471986456869,
+          "heaterSeconds": 173.5999999999987
+        },
+        {
+          "method": "pid",
+          "mae": 2.8301470604222425,
+          "lateMae": 2.1664189827623592,
+          "heaterSeconds": 165.94722541474326
+        },
+        {
+          "method": "antiwindup",
+          "mae": 2.29776661508093,
+          "lateMae": 1.9651708448519218,
+          "heaterSeconds": 171.0468394271356
+        },
+        {
+          "method": "feedforward",
+          "mae": 2.3171474902431535,
+          "lateMae": 1.9846032095405932,
+          "heaterSeconds": 171.94372845091024
+        }
+      ]
+    }
+  ]
+}
